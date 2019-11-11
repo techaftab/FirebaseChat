@@ -1,0 +1,299 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="alobha.chatapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="17"
+8-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:6:5-67
+11-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:7:5-79
+12-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:7:22-76
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:8:5-80
+13-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:8:22-77
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:9:5-81
+14-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:9:22-78
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:10:5-79
+15-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:10:22-76
+16    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+16-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:11:5-97
+16-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:11:22-95
+17
+18    <uses-feature
+18-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\10496f710d269c4bbf750af6c3496e37\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+19        android:glEsVersion="0x00020000"
+19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\10496f710d269c4bbf750af6c3496e37\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+20        android:required="true" />
+20-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\10496f710d269c4bbf750af6c3496e37\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+21
+22    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+22-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\85573c4148afa9d627bdb58c338f2f7a\firebase-iid-20.0.0\AndroidManifest.xml:24:5-68
+22-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\85573c4148afa9d627bdb58c338f2f7a\firebase-iid-20.0.0\AndroidManifest.xml:24:22-65
+23    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+23-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\85573c4148afa9d627bdb58c338f2f7a\firebase-iid-20.0.0\AndroidManifest.xml:26:5-82
+23-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\85573c4148afa9d627bdb58c338f2f7a\firebase-iid-20.0.0\AndroidManifest.xml:26:22-79
+24
+25    <application
+25-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:13:5-82:19
+26        android:name="alobha.chatapp.FirebaseChatMainApp"
+26-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:14:9-44
+27        android:allowBackup="true"
+27-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:15:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.1.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\3bcafbc2e95e113b9db4402c8bff255d\core-1.1.0\AndroidManifest.xml:24:18-86
+29        android:debuggable="true"
+30        android:icon="@mipmap/ic_launcher"
+30-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:16:9-43
+31        android:label="@string/app_name"
+31-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:17:9-41
+32        android:supportsRtl="true"
+32-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:18:9-35
+33        android:testOnly="true"
+34        android:theme="@style/AppTheme"
+34-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:20:9-40
+35        android:usesCleartextTraffic="true" >
+35-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:19:9-44
+36        <meta-data
+36-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:22:9-24:61
+37            android:name="com.google.android.geo.API_KEY"
+37-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:23:13-58
+38            android:value="@string/api_key_google_places" />
+38-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:24:13-58
+39
+40        <activity android:name="alobha.chatapp.MainActivity" >
+40-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:26:9-32:20
+40-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:26:19-61
+41            <intent-filter>
+41-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:27:13-31:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:28:17-69
+42-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:28:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:30:17-77
+44-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:30:27-74
+45            </intent-filter>
+46        </activity>
+47        <activity
+47-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:34:9-36:65
+48            android:name="alobha.chatapp.activity.LoginActivity"
+48-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:35:13-65
+49            android:theme="@style/Theme.AppCompat.NoActionBar" />
+49-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:36:13-63
+50        <activity
+50-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:38:9-40:65
+51            android:name="alobha.chatapp.activity.LoginActivity2"
+51-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:39:13-66
+52            android:theme="@style/Theme.AppCompat.NoActionBar" />
+52-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:40:13-63
+53        <activity
+53-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:42:9-44:65
+54            android:name="alobha.chatapp.activity.ChatActivity"
+54-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:43:13-64
+55            android:theme="@style/Theme.AppCompat.NoActionBar" />
+55-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:44:13-63
+56        <activity
+56-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:46:9-48:77
+57            android:name="alobha.chatapp.activity.FullScreenImageActivity"
+57-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:48:13-75
+58            android:theme="@style/Theme.AppCompat.NoActionBar" />
+58-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:47:13-63
+59        <activity
+59-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:50:9-52:70
+60            android:name="alobha.chatapp.activity.RegisterActivity"
+60-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:52:13-68
+61            android:theme="@style/Theme.AppCompat.NoActionBar" />
+61-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:51:13-63
+62        <activity
+62-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:54:9-56:73
+63            android:name="alobha.chatapp.activity.UserListingActivity"
+63-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:56:13-71
+64            android:theme="@style/Theme.AppCompat.NoActionBar" />
+64-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:55:13-63
+65
+66        <provider
+67            android:name="androidx.core.content.FileProvider"
+67-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:59:13-62
+68            android:authorities="alobha.chatapp.provider"
+68-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:60:13-60
+69            android:exported="false"
+69-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:61:13-37
+70            android:grantUriPermissions="true" >
+70-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:62:13-47
+71            <meta-data
+71-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:64:13-66:57
+72                android:name="android.support.FILE_PROVIDER_PATHS"
+72-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:65:17-67
+73                android:resource="@xml/provider_paths" />
+73-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:66:17-55
+74        </provider>
+75
+76        <service android:name="alobha.chatapp.fcm.MyFirebaseMessagingService" >
+76-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:70:9-74:19
+76-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:70:18-64
+77            <intent-filter>
+77-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:71:13-73:29
+78                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+78-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:72:17-78
+78-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:72:25-75
+79            </intent-filter>
+80        </service>
+81
+82        <!--
+83        <service android:name=".fcm.MyFirebaseInstanceIDService">
+84            <intent-filter>
+85                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+86            </intent-filter>
+87        </service>
+88        -->
+89
+90        <activity
+90-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\f93910dcc4bbfd964f949e2ecee79f63\play-services-auth-17.0.0\AndroidManifest.xml:23:9-27:75
+91            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+91-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\f93910dcc4bbfd964f949e2ecee79f63\play-services-auth-17.0.0\AndroidManifest.xml:24:13-93
+92            android:excludeFromRecents="true"
+92-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\f93910dcc4bbfd964f949e2ecee79f63\play-services-auth-17.0.0\AndroidManifest.xml:25:13-46
+93            android:exported="false"
+93-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\f93910dcc4bbfd964f949e2ecee79f63\play-services-auth-17.0.0\AndroidManifest.xml:26:13-37
+94            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+94-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\f93910dcc4bbfd964f949e2ecee79f63\play-services-auth-17.0.0\AndroidManifest.xml:27:13-72
+95        <!--
+96            Service handling Google Sign-In user revocation. For apps that do not integrate with
+97            Google Sign-In, this service will never be started.
+98        -->
+99        <service
+99-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\f93910dcc4bbfd964f949e2ecee79f63\play-services-auth-17.0.0\AndroidManifest.xml:33:9-36:110
+100            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+100-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\f93910dcc4bbfd964f949e2ecee79f63\play-services-auth-17.0.0\AndroidManifest.xml:34:13-89
+101            android:exported="true"
+101-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\f93910dcc4bbfd964f949e2ecee79f63\play-services-auth-17.0.0\AndroidManifest.xml:35:13-36
+102            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+102-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\f93910dcc4bbfd964f949e2ecee79f63\play-services-auth-17.0.0\AndroidManifest.xml:36:13-107
+103
+104        <activity
+104-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\036bb3063c7e1212eb5a1f4aef58cca9\firebase-auth-19.1.0\AndroidManifest.xml:24:9-31:50
+105            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+105-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\036bb3063c7e1212eb5a1f4aef58cca9\firebase-auth-19.1.0\AndroidManifest.xml:25:13-85
+106            android:excludeFromRecents="true"
+106-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\036bb3063c7e1212eb5a1f4aef58cca9\firebase-auth-19.1.0\AndroidManifest.xml:26:13-46
+107            android:exported="true"
+107-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\036bb3063c7e1212eb5a1f4aef58cca9\firebase-auth-19.1.0\AndroidManifest.xml:27:13-36
+108            android:launchMode="singleTask"
+108-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\036bb3063c7e1212eb5a1f4aef58cca9\firebase-auth-19.1.0\AndroidManifest.xml:28:13-44
+109            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+109-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\036bb3063c7e1212eb5a1f4aef58cca9\firebase-auth-19.1.0\AndroidManifest.xml:29:13-102
+110            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+110-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\036bb3063c7e1212eb5a1f4aef58cca9\firebase-auth-19.1.0\AndroidManifest.xml:30:13-72
+111
+112        <service
+112-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\036bb3063c7e1212eb5a1f4aef58cca9\firebase-auth-19.1.0\AndroidManifest.xml:33:9-39:19
+113            android:name="com.google.firebase.components.ComponentDiscoveryService"
+113-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\036bb3063c7e1212eb5a1f4aef58cca9\firebase-auth-19.1.0\AndroidManifest.xml:34:13-84
+114            android:directBootAware="true"
+114-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\06ec54fa215c4869063d78d4b840bd64\firebase-common-19.2.0\AndroidManifest.xml:15:13-43
+115            android:exported="false" >
+115-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\036bb3063c7e1212eb5a1f4aef58cca9\firebase-auth-19.1.0\AndroidManifest.xml:35:13-37
+116            <meta-data
+116-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\036bb3063c7e1212eb5a1f4aef58cca9\firebase-auth-19.1.0\AndroidManifest.xml:36:13-38:85
+117                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+117-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\036bb3063c7e1212eb5a1f4aef58cca9\firebase-auth-19.1.0\AndroidManifest.xml:37:17-109
+118                android:value="com.google.firebase.components.ComponentRegistrar" />
+118-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\036bb3063c7e1212eb5a1f4aef58cca9\firebase-auth-19.1.0\AndroidManifest.xml:38:17-82
+119            <meta-data
+119-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\829c2c9fef73b753e2e0084cf78085fb\firebase-database-19.2.0\AndroidManifest.xml:32:13-34:85
+120                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+120-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\829c2c9fef73b753e2e0084cf78085fb\firebase-database-19.2.0\AndroidManifest.xml:33:17-109
+121                android:value="com.google.firebase.components.ComponentRegistrar" />
+121-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\829c2c9fef73b753e2e0084cf78085fb\firebase-database-19.2.0\AndroidManifest.xml:34:17-82
+122            <meta-data
+122-->[com.google.firebase:firebase-storage:19.1.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\a35127b4be6670f1ae0c091bde20438e\firebase-storage-19.1.0\AndroidManifest.xml:33:13-35:85
+123                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+123-->[com.google.firebase:firebase-storage:19.1.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\a35127b4be6670f1ae0c091bde20438e\firebase-storage-19.1.0\AndroidManifest.xml:34:17-107
+124                android:value="com.google.firebase.components.ComponentRegistrar" />
+124-->[com.google.firebase:firebase-storage:19.1.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\a35127b4be6670f1ae0c091bde20438e\firebase-storage-19.1.0\AndroidManifest.xml:35:17-82
+125            <meta-data
+125-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\85573c4148afa9d627bdb58c338f2f7a\firebase-iid-20.0.0\AndroidManifest.xml:32:13-34:85
+126                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+126-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\85573c4148afa9d627bdb58c338f2f7a\firebase-iid-20.0.0\AndroidManifest.xml:33:17-96
+127                android:value="com.google.firebase.components.ComponentRegistrar" />
+127-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\85573c4148afa9d627bdb58c338f2f7a\firebase-iid-20.0.0\AndroidManifest.xml:34:17-82
+128        </service>
+129        <!--
+130             FirebaseMessagingService performs security checks at runtime,
+131             but set to not exported to explicitly avoid allowing another app to call it.
+132        -->
+133        <service
+133-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\3a4c7907390d387ea1b059260ea54213\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:28:9-34:19
+134            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+134-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\3a4c7907390d387ea1b059260ea54213\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:29:13-82
+135            android:exported="false" >
+135-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\3a4c7907390d387ea1b059260ea54213\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:30:13-37
+136            <intent-filter android:priority="-500" >
+136-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:71:13-73:29
+137                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+137-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:72:17-78
+137-->E:\AndroidProjects\firebasechat\app\src\main\AndroidManifest.xml:72:25-75
+138            </intent-filter>
+139        </service> <!-- Needs to be explicitly declared on P+ -->
+140        <uses-library
+140-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\10496f710d269c4bbf750af6c3496e37\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+141            android:name="org.apache.http.legacy"
+141-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\10496f710d269c4bbf750af6c3496e37\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+142            android:required="false" />
+142-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\10496f710d269c4bbf750af6c3496e37\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+143
+144        <receiver
+144-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\85573c4148afa9d627bdb58c338f2f7a\firebase-iid-20.0.0\AndroidManifest.xml:37:9-44:20
+145            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+145-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\85573c4148afa9d627bdb58c338f2f7a\firebase-iid-20.0.0\AndroidManifest.xml:38:13-78
+146            android:exported="true"
+146-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\85573c4148afa9d627bdb58c338f2f7a\firebase-iid-20.0.0\AndroidManifest.xml:39:13-36
+147            android:permission="com.google.android.c2dm.permission.SEND" >
+147-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\85573c4148afa9d627bdb58c338f2f7a\firebase-iid-20.0.0\AndroidManifest.xml:40:13-73
+148            <intent-filter>
+148-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\85573c4148afa9d627bdb58c338f2f7a\firebase-iid-20.0.0\AndroidManifest.xml:41:13-43:29
+149                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+149-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\85573c4148afa9d627bdb58c338f2f7a\firebase-iid-20.0.0\AndroidManifest.xml:42:17-81
+149-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\85573c4148afa9d627bdb58c338f2f7a\firebase-iid-20.0.0\AndroidManifest.xml:42:25-78
+150            </intent-filter>
+151        </receiver>
+152
+153        <activity
+153-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\cfafb781a345d3f54848aefef9b2f0c0\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+154            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+154-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\cfafb781a345d3f54848aefef9b2f0c0\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+155            android:exported="false"
+155-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\cfafb781a345d3f54848aefef9b2f0c0\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+156            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+156-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\cfafb781a345d3f54848aefef9b2f0c0\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+157
+158        <provider
+158-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\06ec54fa215c4869063d78d4b840bd64\firebase-common-19.2.0\AndroidManifest.xml:19:9-23:39
+159            android:name="com.google.firebase.provider.FirebaseInitProvider"
+159-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\06ec54fa215c4869063d78d4b840bd64\firebase-common-19.2.0\AndroidManifest.xml:20:13-77
+160            android:authorities="alobha.chatapp.firebaseinitprovider"
+160-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\06ec54fa215c4869063d78d4b840bd64\firebase-common-19.2.0\AndroidManifest.xml:21:13-72
+161            android:exported="false"
+161-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\06ec54fa215c4869063d78d4b840bd64\firebase-common-19.2.0\AndroidManifest.xml:22:13-37
+162            android:initOrder="100" />
+162-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\06ec54fa215c4869063d78d4b840bd64\firebase-common-19.2.0\AndroidManifest.xml:23:13-36
+163
+164        <meta-data
+164-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\6edd23d944f34561e8894320208aff5f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+165            android:name="com.google.android.gms.version"
+165-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\6edd23d944f34561e8894320208aff5f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+166            android:value="@integer/google_play_services_version" />
+166-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Web Mobril\.gradle\caches\transforms-2\files-2.1\6edd23d944f34561e8894320208aff5f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+167    </application>
+168
+169</manifest>

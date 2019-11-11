@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "292254701775",
+    "firebase_url": "https://fir-chat-bea09.firebaseio.com",
+    "project_id": "fir-chat-bea09",
+    "storage_bucket": "fir-chat-bea09.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292254701775:android:1d5d0030128b7c94e13fba",
+        "android_client_info": {
+          "package_name": "alobha.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "292254701775-1np86jcloa85rs71a27o1qd74q83be49.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "alobha.chatapp",
+            "certificate_hash": "4053c19b680d41554935c278ecfc98e11fd3c57b"
+          }
+        },
+        {
+          "client_id": "292254701775-2v44qtbf3lg1eu45fe32ho21vkl43mvj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuOD7vTxJfeRwc9JJQMj9nYEWDJmyveZs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "292254701775-2v44qtbf3lg1eu45fe32ho21vkl43mvj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
